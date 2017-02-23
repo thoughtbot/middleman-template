@@ -2,6 +2,13 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thoughtbot/middleman-template)
 
+## License
+
+Copyright © 2017 thoughtbot, inc. This is free software, and may be
+redistributed under the terms specified in the [LICENSE] file.
+
+  [license]: LICENSE.md
+
 ## About
 
 ![thoughtbot](http://presskit.thoughtbot.com/images/signature.svg)
