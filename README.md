@@ -4,8 +4,8 @@
 
 ## License
 
-Copyright © 2017 thoughtbot, inc. This is free software, and may be
-redistributed under the terms specified in the [LICENSE] file.
+Copyright © 2017 Tyson Gach and thoughtbot, inc. This is free software, and may
+be redistributed under the terms specified in the [LICENSE] file.
 
   [license]: LICENSE.md
 
