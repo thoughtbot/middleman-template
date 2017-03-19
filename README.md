@@ -2,6 +2,14 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thoughtbot/middleman-template)
 
+## Contributing
+
+See the [contributing document].
+Thank you, [contributors]!
+
+  [contributing document]: CONTRIBUTING.md
+  [contributors]: https://github.com/thoughtbot/middleman-aria_current/graphs/contributors
+
 ## License
 
 Copyright © 2017 Tyson Gach and thoughtbot, inc. This is free software, and may
