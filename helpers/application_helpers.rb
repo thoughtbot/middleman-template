@@ -17,8 +17,10 @@ module ApplicationHelpers
 
   def svg(name)
     root = Middleman::Application.root
-    file_path = "#{root}/source/images/#{name}.svg"
+    images_path = config[:images_dir]
+    file_path = "#{root}/source/#{images_path}/#{name}.svg"
+
     return File.read(file_path) if File.exists?(file_path)
-    "(not found)"
+    "(SVG not found)"
   end
 end
