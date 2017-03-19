@@ -1,3 +1,4 @@
+activate :aria_current
 activate :autoprefixer
 
 set :css_dir, "assets/stylesheets"
