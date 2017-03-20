@@ -8,6 +8,42 @@ to [Netlify].
   [thoughtbot]: https://thoughtbot.com/
   [Netlify]: https://www.netlify.com/
 
+## Configuration
+
+This template comes with the following features and tools:
+
+- [middleman-aria_current]: An extension for indicating a current (active) link
+  using `aria-current`.
+- [middleman-autoprefixer]: Automatically vendor-prefix stylesheets.
+- [middleman-livereload]: Automatically refresh the browser as soon as you save
+  a file.
+- [middleman-minify-html]: Minifies whitespace around HTML when the site is
+  built.
+- [SassC]: CSS pre-processor.
+- [Bourbon]: Sass tool set.
+- [Neat]: Sass grid.
+- [Bitters]: Scaffold styles, variables and structure.
+- [Redcarpet]: Markdown processing.
+- [An SVG view helper][svg]: Output inline SVG's in your views,
+  e.g. `<%= svg("logo") %>`.
+- [CircleCI]: Continuous integration.
+- [Hound]: Comments on style violations in GitHub pull requests.
+- [Segment]: Analytics API.
+
+  [middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
+  [middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
+  [middleman-livereload]: https://github.com/middleman/middleman-livereload
+  [middleman-minify-html]: https://github.com/middleman/middleman-minify-html
+  [SassC]: https://github.com/sass/sassc
+  [Bourbon]: https://github.com/thoughtbot/bourbon
+  [Neat]: https://github.com/thoughtbot/neat
+  [Bitters]: https://github.com/thoughtbot/bitters
+  [Redcarpet]: https://github.com/vmg/redcarpet
+  [svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
+  [CircleCI]: https://circleci.com/
+  [Hound]: https://houndci.com/repos
+  [Segment]: https://segment.com/
+
 ## Contributing
 
 See the [contributing document].
