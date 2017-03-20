@@ -40,7 +40,7 @@ This template comes with the following features and tools:
   [Bourbon]: https://github.com/thoughtbot/bourbon
   [Neat]: https://github.com/thoughtbot/neat
   [Bitters]: https://github.com/thoughtbot/bitters
-- [normalize.css]: https://github.com/necolas/normalize.css/
+  [normalize.css]: https://github.com/necolas/normalize.css/
   [Redcarpet]: https://github.com/vmg/redcarpet
   [svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
   [CircleCI]: https://circleci.com/
