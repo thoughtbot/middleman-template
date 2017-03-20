@@ -23,6 +23,7 @@ This template comes with the following features and tools:
 - [Bourbon]: Sass tool set.
 - [Neat]: Sass grid.
 - [Bitters]: Scaffold styles, variables and structure.
+- [normalize.css]: Modern CSS "reset"
 - [Redcarpet]: Markdown processing.
 - [An SVG view helper][svg]: Output inline SVG's in your views,
   e.g. `<%= svg("logo") %>`.
@@ -38,6 +39,7 @@ This template comes with the following features and tools:
   [Bourbon]: https://github.com/thoughtbot/bourbon
   [Neat]: https://github.com/thoughtbot/neat
   [Bitters]: https://github.com/thoughtbot/bitters
+- [normalize.css]: https://github.com/necolas/normalize.css/
   [Redcarpet]: https://github.com/vmg/redcarpet
   [svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
   [CircleCI]: https://circleci.com/
