@@ -28,6 +28,7 @@ This template comes with the following features and tools:
 - [An SVG view helper][svg]: Output inline SVG's in your views,
   e.g. `<%= svg("logo") %>`.
 - [CircleCI]: Continuous integration.
+- [AccessLint]: For keeping accessibility issues in check.
 - [Hound]: Comments on style violations in GitHub pull requests.
 - [Segment]: Analytics API.
 
@@ -43,6 +44,7 @@ This template comes with the following features and tools:
   [Redcarpet]: https://github.com/vmg/redcarpet
   [svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
   [CircleCI]: https://circleci.com/
+  [AccessLint]: https://accesslint.com/
   [Hound]: https://houndci.com/repos
   [Segment]: https://segment.com/
 
