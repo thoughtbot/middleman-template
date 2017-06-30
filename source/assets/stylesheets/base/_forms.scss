@@ -25,7 +25,7 @@ select,
 textarea {
   display: block;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 16px;
 }
 
 #{$all-text-inputs} {
@@ -82,4 +82,14 @@ textarea {
 select {
   margin-bottom: $small-spacing;
   width: 100%;
+}
+
+[type="checkbox"],
+[type="radio"],
+[type="file"],
+select {
+  &:focus {
+    outline: $focus-outline;
+    outline-offset: $focus-outline-offset;
+  }
 }

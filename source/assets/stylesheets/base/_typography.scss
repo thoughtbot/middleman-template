@@ -1,7 +1,7 @@
-body {
+html {
   color: $base-font-color;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 100%;
   line-height: $base-line-height;
 }
 
@@ -23,13 +23,16 @@ p {
 
 a {
   color: $action-color;
-  text-decoration: none;
+  text-decoration-skip: ink;
   transition: color $base-duration $base-timing;
 
-  &:active,
-  &:focus,
   &:hover {
     color: shade($action-color, 25%);
+  }
+
+  &:focus {
+    outline: $focus-outline;
+    outline-offset: $focus-outline-offset;
   }
 }
 
