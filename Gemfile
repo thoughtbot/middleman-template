@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 ruby "2.4.0"
 
-gem "accesslint-ci", "0.2.8"
 gem "bourbon", "~> 5.0.0.beta.8"
 gem "middleman", "~> 4.2"
 gem "middleman-aria_current", "~> 0.1"

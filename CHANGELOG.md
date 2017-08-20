@@ -10,9 +10,13 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 ## [Unreleased (`master`)][unreleased]
 
-Nothing at the moment.
+### Removed
+
+- AccessLint::Ci has been deprecated and therefore removed from this
+  project. ([#21])
 
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.2.0...HEAD
+[#21]: https://github.com/thoughtbot/middleman-template/pull/21
 
 ## [0.2.0] - 2017-06-30
 
