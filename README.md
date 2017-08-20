@@ -19,7 +19,7 @@ This template comes with the following features and tools:
   a file.
 - [middleman-minify-html]: Minifies whitespace around HTML when the site is
   built.
-- [SassC]: CSS pre-processor.
+- [Sass]: CSS pre-processor.
 - [Bourbon]: Sass tool set.
 - [Neat]: Sass grid.
 - [Bitters]: Scaffold styles, variables and structure.
@@ -35,7 +35,7 @@ This template comes with the following features and tools:
   [middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
   [middleman-livereload]: https://github.com/middleman/middleman-livereload
   [middleman-minify-html]: https://github.com/middleman/middleman-minify-html
-  [SassC]: https://github.com/sass/sassc
+  [Sass]: https://github.com/sass/sass
   [Bourbon]: https://github.com/thoughtbot/bourbon
   [Neat]: https://github.com/thoughtbot/neat
   [Bitters]: https://github.com/thoughtbot/bitters
