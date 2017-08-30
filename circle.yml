@@ -1,6 +1,9 @@
-machine:
-  environment:
-    URL: "http://localhost:4567/"
-test:
+checkout:
+  post:
+    - cp .sample.env .env
+compile:
   override:
     - bundle exec middleman build --verbose
+test:
+  override:
+    - echo "No tests. See the 'compile' step."

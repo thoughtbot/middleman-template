@@ -17,6 +17,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 ### Changed
 
 - Swapped the sassc gem for sass. ([#22])
+- Improved CircleCI configuration. ([#24])
 
 ### Removed
 
@@ -27,6 +28,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 [#21]: https://github.com/thoughtbot/middleman-template/pull/21
 [#22]: https://github.com/thoughtbot/middleman-template/pull/22
 [#23]: https://github.com/thoughtbot/middleman-template/pull/23
+[#24]: https://github.com/thoughtbot/middleman-template/pull/24
 
 ## [0.2.0] - 2017-06-30
 
