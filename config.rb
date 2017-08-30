@@ -16,9 +16,9 @@ set :markdown,
   with_toc_data: true
 set :markdown_engine, :redcarpet
 
-page "/*.xml", layout: false
 page "/*.json", layout: false
 page "/*.txt", layout: false
+page "/*.xml", layout: false
 
 configure :development do
   activate :livereload do |reload|

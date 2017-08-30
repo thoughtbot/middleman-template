@@ -1,3 +1,6 @@
+machine:
+  environment:
+    URL: "http://localhost:4567/"
 test:
   override:
     - bundle exec middleman build --verbose

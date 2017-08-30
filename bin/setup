@@ -8,3 +8,8 @@ set -e
 # Set up Ruby dependencies
 gem install bundler --conservative
 bundle check || bundle install
+
+# Set up development environment config
+if [ ! -f .env ]; then
+  cp .sample.env .env
+fi

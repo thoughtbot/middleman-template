@@ -10,6 +10,10 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 ## [Unreleased (`master`)][unreleased]
 
+### Added
+
+- Added a `sitemap.xml` template. ([#23])
+
 ### Changed
 
 - Swapped the sassc gem for sass. ([#22])
@@ -22,6 +26,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.2.0...HEAD
 [#21]: https://github.com/thoughtbot/middleman-template/pull/21
 [#22]: https://github.com/thoughtbot/middleman-template/pull/22
+[#23]: https://github.com/thoughtbot/middleman-template/pull/23
 
 ## [0.2.0] - 2017-06-30
 
