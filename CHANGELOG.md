@@ -10,6 +10,12 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 ## [Unreleased (`master`)][unreleased]
 
+Nothing at the moment.
+
+[unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.3.0...HEAD
+
+## [0.3.0] - 2017-09-15
+
 ### Added
 
 - Added a `sitemap.xml` template. ([#23])
@@ -24,7 +30,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 - AccessLint::Ci has been deprecated and therefore removed from this
   project. ([#21])
 
-[unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.2.0...HEAD
+[0.3.0]: https://github.com/thoughtbot/middleman-template/compare/v0.2.0...v0.3.0
 [#21]: https://github.com/thoughtbot/middleman-template/pull/21
 [#22]: https://github.com/thoughtbot/middleman-template/pull/22
 [#23]: https://github.com/thoughtbot/middleman-template/pull/23
