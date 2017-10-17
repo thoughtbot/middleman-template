@@ -14,6 +14,10 @@ Nothing at the moment.
 
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.3.0...HEAD
 
+## [0.3.1] - 2017-10-16
+
+  - Added Bitters to Gemfile
+
 ## [0.3.0] - 2017-09-15
 
 ### Added
