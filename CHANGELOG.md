@@ -10,7 +10,9 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 ## [Unreleased (`master`)][unreleased]
 
-Nothing at the moment.
+### Changed
+
+- Update bourbon from 5.0.0.beta.8 to 5.0.0
 
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.3.0...HEAD
 
