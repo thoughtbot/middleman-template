@@ -8,6 +8,15 @@ to [Netlify].
   [thoughtbot]: https://thoughtbot.com/
   [Netlify]: https://www.netlify.com/
 
+## Usage
+
+This is a [project template][project-template] to use with your own middleman
+application. To create a new middleman project using this template, run:
+
+    % middleman init MY_PROJECT_FOLDER -T thoughtbot/middleman-template
+
+[project-template]: https://middlemanapp.com/advanced/project-templates/
+
 ## Configuration
 
 This template comes with the following features and tools:
