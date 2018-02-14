@@ -10,11 +10,19 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 ## [Unreleased (`master`)][unreleased]
 
+Nothing at the moment.
+
+[unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...HEAD
+
+## [0.4.0] - 2018-02-13
+
 ### Changed
 
 - Update bourbon from 5.0.0.beta.8 to 5.0.0
+- Update middleman-autoprefixer from 2.8.0 to 2.9.0
+- Update rake from 12.0.0 to 12.3.0
 
-[unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.3.0...HEAD
+[0.4.0]: https://github.com/thoughtbot/middleman-template/compare/v0.3.0...v0.4.0
 
 ## [0.3.0] - 2017-09-15
 
