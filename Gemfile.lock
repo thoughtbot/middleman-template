@@ -28,7 +28,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.2.2)
+    eventmachine (1.2.5)
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.1)
