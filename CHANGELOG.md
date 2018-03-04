@@ -10,6 +10,10 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 ## [Unreleased (`master`)][unreleased]
 
+### Added
+
+- Added a `tool-versions` file to support the [asdf version manager][asdf]
+
 ### Changed
 
 - Updated Segment's Analytics.js from 4.0.0 to 4.0.1
@@ -21,6 +25,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 - Removed rake gem
 
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...HEAD
+[asdf]: https://github.com/asdf-vm/asdf
 
 ## [0.4.0] - 2018-02-13
 
