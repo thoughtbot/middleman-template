@@ -14,6 +14,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 - Updated Segment's Analytics.js from 4.0.0 to 4.0.1
 - Update Ruby from 2.4.0 to 2.4.3
+- Update normalize.css from 7.0.0 to 8.0.0
 
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...HEAD
 
