@@ -16,6 +16,10 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 - Update Ruby from 2.4.0 to 2.4.3
 - Update normalize.css from 7.0.0 to 8.0.0
 
+### Removed
+
+- Removed rake gem
+
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...HEAD
 
 ## [0.4.0] - 2018-02-13
