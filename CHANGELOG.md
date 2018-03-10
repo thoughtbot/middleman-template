@@ -19,6 +19,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 - Updated Segment's Analytics.js from 4.0.0 to 4.0.1
 - Update Ruby from 2.4.0 to 2.4.3
 - Update normalize.css from 7.0.0 to 8.0.0
+- Moved to CircleCI 2.0 ([#30])
 
 ### Removed
 
@@ -26,6 +27,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...HEAD
 [asdf]: https://github.com/asdf-vm/asdf
+[#30]: https://github.com/thoughtbot/middleman-template/pull/30
 
 ## [0.4.0] - 2018-02-13
 

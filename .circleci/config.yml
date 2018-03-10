@@ -1,0 +1,29 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.3-node
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: middleman-template-{{ arch }}-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: Install Ruby dependencies
+          command: bundle install --path vendor/bundle
+
+      - save_cache:
+          key: middleman-template-{{ arch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: Setup the environment
+          command: cp .sample.env .env
+
+      - run:
+          name: Build Middleman site
+          command: bundle exec middleman build --verbose
