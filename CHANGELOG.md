@@ -21,6 +21,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 - Update normalize.css from 7.0.0 to 8.0.0
 - Moved to CircleCI 2.0 ([#30])
 - `.sample.env` is now `.env.sample`
+- Improved error-handling of SVG helper ([#29])
 
 ### Removed
 
@@ -29,6 +30,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...HEAD
 [asdf]: https://github.com/asdf-vm/asdf
 [#30]: https://github.com/thoughtbot/middleman-template/pull/30
+[#29]: https://github.com/thoughtbot/middleman-template/pull/29
 
 ## [0.4.0] - 2018-02-13
 

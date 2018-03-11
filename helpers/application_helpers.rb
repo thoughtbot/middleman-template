@@ -21,6 +21,7 @@ module ApplicationHelpers
     file_path = "#{root}/source/#{images_path}/#{name}.svg"
 
     return File.read(file_path) if File.exists?(file_path)
-    "(SVG not found)"
+
+    raise "SVG not found: #{name}"
   end
 end
