@@ -13,6 +13,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 ### Added
 
 - Added a `tool-versions` file to support the [asdf version manager][asdf]
+- Enabled Middleman's [`asset_hash` extension][asset_hash]
 
 ### Changed
 
@@ -31,6 +32,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...HEAD
 [asdf]: https://github.com/asdf-vm/asdf
+[asset_hash]: https://middlemanapp.com/advanced/improving-cacheability/
 [#30]: https://github.com/thoughtbot/middleman-template/pull/30
 [#29]: https://github.com/thoughtbot/middleman-template/pull/29
 

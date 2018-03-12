@@ -27,6 +27,7 @@ configure :development do
 end
 
 configure :production do
+  activate :asset_hash
   activate :gzip
   activate :minify_css
   activate :minify_html
