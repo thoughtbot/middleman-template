@@ -22,6 +22,8 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 - Moved to CircleCI 2.0 ([#30])
 - `.sample.env` is now `.env.sample`
 - Improved error-handling of SVG helper ([#29])
+- The file extension is now required when calling the `svg()` helper,
+  e.g. `<%= svg("foo.svg") %>`
 
 ### Removed
 
