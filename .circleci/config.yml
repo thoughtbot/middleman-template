@@ -22,7 +22,7 @@ jobs:
 
       - run:
           name: Setup the environment
-          command: cp .sample.env .env
+          command: cp .env.sample .env
 
       - run:
           name: Build Middleman site

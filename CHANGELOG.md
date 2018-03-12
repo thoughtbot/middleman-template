@@ -20,6 +20,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 - Update Ruby from 2.4.0 to 2.4.3
 - Update normalize.css from 7.0.0 to 8.0.0
 - Moved to CircleCI 2.0 ([#30])
+- `.sample.env` is now `.env.sample`
 
 ### Removed
 
