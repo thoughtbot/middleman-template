@@ -10,6 +10,12 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 ## [Unreleased (`master`)][unreleased]
 
+Nothing at the moment.
+
+[unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.5.0...HEAD
+
+## [0.5.0] - 2018-03-12
+
 ### Added
 
 - Added a `tool-versions` file to support the [asdf version manager][asdf]
@@ -30,7 +36,7 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 - Removed rake gem
 
-[unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...HEAD
+[0.5.0]: https://github.com/thoughtbot/middleman-template/compare/v0.4.0...v0.5.0
 [asdf]: https://github.com/asdf-vm/asdf
 [asset_hash]: https://middlemanapp.com/advanced/improving-cacheability/
 [#30]: https://github.com/thoughtbot/middleman-template/pull/30
