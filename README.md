@@ -5,8 +5,8 @@ to [Netlify].
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thoughtbot/middleman-template)
 
-  [thoughtbot]: https://thoughtbot.com/
-  [Netlify]: https://www.netlify.com/
+[thoughtbot]: https://thoughtbot.com/
+[Netlify]: https://www.netlify.com/
 
 ## Configuration
 
@@ -31,35 +31,35 @@ This template comes with the following features and tools:
 - [Hound]: Comments on style violations in GitHub pull requests.
 - [Segment]: Analytics API.
 
-  [middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
-  [middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
-  [middleman-livereload]: https://github.com/middleman/middleman-livereload
-  [middleman-minify-html]: https://github.com/middleman/middleman-minify-html
-  [Sass]: https://github.com/sass/sass
-  [Bourbon]: https://github.com/thoughtbot/bourbon
-  [Neat]: https://github.com/thoughtbot/neat
-  [Bitters]: https://github.com/thoughtbot/bitters
-  [normalize.css]: https://github.com/necolas/normalize.css/
-  [Redcarpet]: https://github.com/vmg/redcarpet
-  [svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
-  [CircleCI]: https://circleci.com/
-  [Hound]: https://houndci.com/repos
-  [Segment]: https://segment.com/
+[middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
+[middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
+[middleman-livereload]: https://github.com/middleman/middleman-livereload
+[middleman-minify-html]: https://github.com/middleman/middleman-minify-html
+[Sass]: https://github.com/sass/sass
+[Bourbon]: https://github.com/thoughtbot/bourbon
+[Neat]: https://github.com/thoughtbot/neat
+[Bitters]: https://github.com/thoughtbot/bitters
+[normalize.css]: https://github.com/necolas/normalize.css/
+[Redcarpet]: https://github.com/vmg/redcarpet
+[svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
+[CircleCI]: https://circleci.com/
+[Hound]: https://houndci.com/repos
+[Segment]: https://segment.com/
 
 ## Contributing
 
 See the [contributing document].
 Thank you, [contributors]!
 
-  [contributing document]: CONTRIBUTING.md
-  [contributors]: https://github.com/thoughtbot/middleman-aria_current/graphs/contributors
+[contributing document]: CONTRIBUTING.md
+[contributors]: https://github.com/thoughtbot/middleman-aria_current/graphs/contributors
 
 ## License
 
 Copyright © 2017 Tyson Gach and thoughtbot, inc. This is free software, and may
 be redistributed under the terms specified in the [LICENSE] file.
 
-  [license]: LICENSE.md
+[license]: LICENSE.md
 
 ## About
 
@@ -71,5 +71,5 @@ for thoughtbot are trademarks of thoughtbot, inc.
 We love open source software! See [our other projects][community] or
 [hire us][hire] to help build your product.
 
-  [community]: https://thoughtbot.com/community?utm_source=github
-  [hire]: https://thoughtbot.com/hire-us?utm_source=github
+[community]: https://thoughtbot.com/community?utm_source=github
+[hire]: https://thoughtbot.com/hire-us?utm_source=github
