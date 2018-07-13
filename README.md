@@ -15,6 +15,7 @@ This template comes with the following features and tools:
 - [middleman-aria_current]: An extension for indicating a current (active) link
   using `aria-current`.
 - [middleman-autoprefixer]: Automatically vendor-prefix stylesheets.
+- [middleman-inline_svg]: An extension for inlining SVGs in your views.
 - [middleman-livereload]: Automatically refresh the browser as soon as you save
   a file.
 - [middleman-minify-html]: Minifies whitespace around HTML when the site is
@@ -25,14 +26,13 @@ This template comes with the following features and tools:
 - [Bitters]: Scaffold styles, variables and structure.
 - [normalize.css]: Modern CSS "reset"
 - [Redcarpet]: Markdown processing.
-- [An SVG view helper][svg]: Output inline SVG's in your views,
-  e.g. `<%= svg("logo") %>`.
 - [CircleCI]: Continuous integration.
 - [Hound]: Comments on style violations in GitHub pull requests.
 - [Segment]: Analytics API.
 
 [middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
 [middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
+[middleman-inline_svg]: https://github.com/thoughtbot/middleman-inline_svg/
 [middleman-livereload]: https://github.com/middleman/middleman-livereload
 [middleman-minify-html]: https://github.com/middleman/middleman-minify-html
 [Sass]: https://github.com/sass/sass
@@ -41,7 +41,6 @@ This template comes with the following features and tools:
 [Bitters]: https://github.com/thoughtbot/bitters
 [normalize.css]: https://github.com/necolas/normalize.css/
 [Redcarpet]: https://github.com/vmg/redcarpet
-[svg]: https://github.com/thoughtbot/middleman-template/blob/master/helpers/application_helpers.rb#L18-L25
 [CircleCI]: https://circleci.com/
 [Hound]: https://houndci.com/repos
 [Segment]: https://segment.com/

@@ -10,9 +10,12 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
 
 ## [Unreleased (`master`)][unreleased]
 
-Nothing at the moment.
+### Changed
+
+- Swapped the custom `svg` helper out for the [middleman-inline_svg] gem
 
 [unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.5.0...HEAD
+[middleman-inline_svg]: https://github.com/thoughtbot/middleman-inline_svg/
 
 ## [0.5.0] - 2018-03-12
 
