@@ -3,10 +3,33 @@
 The base Middleman application used at [thoughtbot], ready to deploy
 to [Netlify].
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thoughtbot/middleman-template)
-
 [thoughtbot]: https://thoughtbot.com/
 [Netlify]: https://www.netlify.com/
+
+## Usage
+
+1. Make sure you have Middleman installed:
+
+    ```
+    gem install middleman
+    ```
+
+1. Then run:
+
+    ```
+    middleman init PROJECT_NAME --template=thoughtbot/middleman-template
+    ```
+
+    This will create a new Middleman app in a `PROJECT_NAME` directory.
+
+1. Move into the project directory, then start the Middleman server:
+
+    ```
+    bundle exec middleman server
+    ```
+
+    You should now be able to view your fresh new app at
+    <http://localhost:4567>. Happy building!
 
 ## Configuration
 
