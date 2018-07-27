@@ -23,5 +23,11 @@ module Middleman
       puts "Creating Git repository"
       run "git init"
     end
+
+    def netlify?
+      if yes?("Do you want to use Netlify? (yes/no)")
+        template "optional-templates/netlify.toml", "netlify.toml"
+      end
+    end
   end
 end
