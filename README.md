@@ -28,8 +28,19 @@ to [Netlify].
     bundle exec middleman server
     ```
 
-    You should now be able to view your fresh new app at
-    <http://localhost:4567>. Happy building!
+    You should now be able to view the app at <http://localhost:4567>.
+
+1. At this point, you have a fresh Middleman app on your local machine with an
+   empty Git repository initialized. Your next steps might be:
+
+    - Update `README.md` with your project specifics
+    - Create a GitHub repository and add it as a remote
+    - Create an initial Git commit and push it to GitHub
+    - Setup CircleCI
+    - Setup Hound
+    - Setup deployment with Netlify
+
+    Happy building!
 
 ## Configuration
 

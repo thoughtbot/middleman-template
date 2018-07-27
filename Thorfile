@@ -18,5 +18,10 @@ module Middleman
       puts "Running the setup script"
       run "bin/setup"
     end
+
+    def initialize_git_repository
+      puts "Creating Git repository"
+      run "git init"
+    end
   end
 end
