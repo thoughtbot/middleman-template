@@ -8,13 +8,18 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
   [Keep a Changelog]: http://keepachangelog.com/
   [Semantic Versioning]: http://semver.org/
 
-## [Unreleased (`master`)][unreleased]
+## [0.6.0] - 2018-08-01
 
 ### Changed
 
 - Swapped the custom `svg` helper out for the [middleman-inline_svg] gem
+- Kicking off a new project with this template now happens through Middleman's
+  CLI, rather than a Netlify Deploy Button. You can find usage instructions in
+  the readme.
+- Update bourbon from 5.0 to 5.1
+- Update bitters from 1.7.0 to 1.8.0
 
-[unreleased]: https://github.com/thoughtbot/middleman-template/compare/v0.5.0...HEAD
+[0.6.0]: https://github.com/thoughtbot/middleman-template/compare/v0.5.0...v0.6.0
 [middleman-inline_svg]: https://github.com/thoughtbot/middleman-inline_svg/
 
 ## [0.5.0] - 2018-03-12
