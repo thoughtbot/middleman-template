@@ -8,6 +8,14 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
   [Keep a Changelog]: http://keepachangelog.com/
   [Semantic Versioning]: http://semver.org/
 
+## [0.7.0] - 2018-11-09
+
+### Changed
+
+- Switched from Ruby Sass to SassC.
+
+[0.7.0]: https://github.com/thoughtbot/middleman-template/compare/v0.6.0...v0.7.0
+
 ## [0.6.0] - 2018-08-01
 
 ### Changed
