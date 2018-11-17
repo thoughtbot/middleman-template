@@ -50,8 +50,6 @@ This template comes with the following features and tools:
   using `aria-current`.
 - [middleman-autoprefixer]: Automatically vendor-prefix stylesheets.
 - [middleman-inline_svg]: An extension for inlining SVGs in your views.
-- [middleman-livereload]: Automatically refresh the browser as soon as you save
-  a file.
 - [middleman-minify-html]: Minifies whitespace around HTML when the site is
   built.
 - [Sass]: CSS pre-processor.
@@ -67,7 +65,6 @@ This template comes with the following features and tools:
 [middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
 [middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
 [middleman-inline_svg]: https://github.com/thoughtbot/middleman-inline_svg/
-[middleman-livereload]: https://github.com/middleman/middleman-livereload
 [middleman-minify-html]: https://github.com/middleman/middleman-minify-html
 [Sass]: https://github.com/sass/sass
 [Bourbon]: https://github.com/thoughtbot/bourbon

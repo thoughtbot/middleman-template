@@ -21,12 +21,6 @@ page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/*.xml", layout: false
 
-configure :development do
-  activate :livereload do |reload|
-    reload.no_swf = true
-  end
-end
-
 configure :production do
   activate :asset_hash
   activate :gzip
