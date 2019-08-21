@@ -4,6 +4,10 @@ This app is built with [Middleman].
 
 [Middleman]: https://middlemanapp.com/
 
+## Prerequisites
+
+- Ruby 2.6.2 (confirm by running `ruby --version`)
+
 ## Setup
 
 After you have cloned this repo, follow these steps to run the app:
