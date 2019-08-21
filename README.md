@@ -6,6 +6,10 @@ to [Netlify].
 [thoughtbot]: https://thoughtbot.com/
 [Netlify]: https://www.netlify.com/
 
+## Prerequisites
+
+- Ruby 2.6.2 (confirm by running `ruby --version`)
+
 ## Usage
 
 1. Make sure you have Middleman installed:
