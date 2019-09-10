@@ -1,5 +1,5 @@
 [build]
-  command = "bundle exec middleman build"
+  command = "bundle exec middleman build --verbose"
   publish = "build/"
 [template.environment]
   SEGMENT_KEY = "change me to your Segment API key"
