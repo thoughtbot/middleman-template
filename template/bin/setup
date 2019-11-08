@@ -5,6 +5,10 @@
 # Exit if any subcommand fails
 set -e
 
+if command -v asdf > /dev/null; then
+  asdf install
+fi
+
 # Set up Ruby dependencies
 gem install bundler --conservative
 bundle check || bundle install
