@@ -1,4 +1,8 @@
 ruby:
   enabled: true
 scss:
+  enabled: false
+stylelint:
   enabled: true
+  config_file: .stylelintrc.json
+  version: 10.1.0
