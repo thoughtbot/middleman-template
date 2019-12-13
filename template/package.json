@@ -1,6 +1,8 @@
 {
   "devDependencies": {
+    "@thoughtbot/eslint-config": "0.1.0",
     "@thoughtbot/stylelint-config": "1.1.0",
+    "eslint": "6.3.0",
     "stylelint": "10.1.0"
   }
 }
