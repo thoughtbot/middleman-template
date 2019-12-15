@@ -63,7 +63,6 @@ This template comes with the following features and tools:
 - [Redcarpet]: Markdown processing.
 - [CircleCI]: Continuous integration.
 - [Hound]: Comments on style violations in GitHub pull requests.
-- [Segment]: Analytics API.
 
 [middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
 [middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
