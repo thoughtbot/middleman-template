@@ -1,4 +1,9 @@
 {
+  "dependencies": {
+    "bourbon": "^6.0.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.23.7"
+  },
   "devDependencies": {
     "@thoughtbot/eslint-config": "0.1.0",
     "@thoughtbot/stylelint-config": "1.1.0",

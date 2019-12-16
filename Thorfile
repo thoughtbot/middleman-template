@@ -14,6 +14,10 @@ module Middleman
       run "chmod a+x bin/setup"
     end
 
+    def provide_sass_script
+      run "chmod a+x bin/sass"
+    end
+
     def run_setup_script
       puts "Running the setup script"
       run "bin/setup"

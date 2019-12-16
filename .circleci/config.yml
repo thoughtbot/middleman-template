@@ -14,6 +14,11 @@ jobs:
           command: bundle install
 
       - run:
+          name: Install npm dependencies
+          working_directory: template
+          command: npm install --production
+
+      - run:
           name: Setup the environment
           working_directory: template
           command: cp .env.sample .env

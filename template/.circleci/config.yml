@@ -20,6 +20,20 @@ jobs:
           paths:
             - vendor/bundle
 
+      - restore_cache:
+          keys:
+            - middleman-project-{{ arch }}-{{ checksum "package-lock.json" }}
+            - middleman-project-{{ arch }}-
+
+      - run:
+          name: Install npm dependencies
+          command: npm install
+
+      - save_cache:
+          key: middleman-project-{{ arch }}-{{ checksum "package-lock.json" }}
+          paths:
+            - ~/usr/local/lib/node_modules
+
       - run:
           name: Setup the environment
           command: cp .env.sample .env

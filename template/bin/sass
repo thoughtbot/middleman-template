@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+LOAD_PATH="node_modules"
+INPUT="source/assets/stylesheets"
+OUTPUT=".tmp/assets/stylesheets"
+
+if [ "$1" = "development" ]; then
+  OPTIONS="--watch"
+fi
+
+npx sass $OPTIONS --load-path=$LOAD_PATH $INPUT:$OUTPUT

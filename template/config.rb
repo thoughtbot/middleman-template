@@ -21,6 +21,14 @@ page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/*.xml", layout: false
 
+ignore "*.scss"
+
+activate :external_pipeline,
+         name: :sass,
+         command: build? ? "bin/sass" : "bin/sass development",
+         source: ".tmp",
+         latency: 1
+
 configure :production do
   activate :asset_hash
   activate :gzip

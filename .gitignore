@@ -1,2 +1,5 @@
 .DS_Store
+template/.tmp
 template/Gemfile.lock
+template/node_modules
+template/package-lock.json
