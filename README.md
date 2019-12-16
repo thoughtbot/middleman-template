@@ -8,7 +8,7 @@ to [Netlify].
 
 ## Prerequisites
 
-- Ruby 2.6.2 (confirm by running `ruby --version`)
+- Ruby 2.6.5 (confirm by running `ruby --version`)
 
 ## Usage
 

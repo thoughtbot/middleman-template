@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6.2-node
+      - image: circleci/ruby:2.6.5-node
 
     steps:
       - checkout
