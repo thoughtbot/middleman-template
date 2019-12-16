@@ -8,6 +8,34 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
   [Keep a Changelog]: http://keepachangelog.com/
   [Semantic Versioning]: http://semver.org/
 
+## [0.8.0] - 2019-12-16
+
+### Added
+
+- An empty `data` directory is now included, for using [Middleman's Data
+  Files feature][data-files].
+- The template's `bin/setup` script now runs `asdf install` to install
+  programming language dependencies via [asdf][asdf].
+- Added `.env` and `node_modules` to the template's `gitignore`.
+- Added stylelint and ESLint configurations to the template and setup
+  Hound to reference them.
+
+### Changed
+
+- Updated Ruby to 2.6.5.
+- Switched Sass compilation through Middleman's external pipeline,
+  using Sass CLI.
+
+### Removed
+
+- Removed [Neat][neat].
+- Removed Segment and the `analytics` partial.
+
+[0.8.0]: https://github.com/thoughtbot/middleman-template/compare/v0.7.0...v0.8.0
+[data-files]: https://middlemanapp.com/advanced/data-files/
+[asdf]: https://github.com/asdf-vm/asdf
+[neat]: https://github.com/thoughtbot/neat
+
 ## [0.7.0] - 2018-11-09
 
 ### Changed
