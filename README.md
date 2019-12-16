@@ -63,6 +63,8 @@ This template comes with the following features and tools:
 - [Redcarpet]: Markdown processing.
 - [CircleCI]: Continuous integration.
 - [Hound]: Comments on style violations in GitHub pull requests.
+- [stylelint]: CSS and Sass linter.
+- [ESLint]: JavaScript linter.
 
 [middleman-aria_current]: https://github.com/thoughtbot/middleman-aria_current
 [middleman-autoprefixer]: https://github.com/middleman/middleman-autoprefixer
@@ -76,6 +78,8 @@ This template comes with the following features and tools:
 [CircleCI]: https://circleci.com/
 [Hound]: https://houndci.com/repos
 [Segment]: https://segment.com/
+[stylelint]: https://stylelint.io/
+[ESLint]: https://eslint.org/
 
 ## Contributing
 
