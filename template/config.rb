@@ -26,7 +26,7 @@ ignore "*.scss"
 activate :external_pipeline,
          name: :sass,
          command: build? ? "bin/sass" : "bin/sass development",
-         source: ".tmp",
+         source: "tmp",
          latency: 1
 
 configure :production do

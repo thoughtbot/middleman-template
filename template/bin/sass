@@ -4,7 +4,7 @@ set -e
 
 LOAD_PATH="node_modules"
 INPUT="source/assets/stylesheets"
-OUTPUT=".tmp/assets/stylesheets"
+OUTPUT="tmp/assets/stylesheets"
 
 if [ "$1" = "development" ]; then
   OPTIONS="--watch"
