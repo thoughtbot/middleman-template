@@ -6,7 +6,7 @@ This app is built with [Middleman].
 
 ## Prerequisites
 
-- Ruby 2.6.5 (confirm by running `ruby --version`)
+- Ruby 2.6.6 (confirm by running `ruby --version`)
 
 ## Setup
 
