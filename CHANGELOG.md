@@ -8,12 +8,14 @@ The format is loosely based on [Keep a Changelog] and this project adheres to
   [Keep a Changelog]: http://keepachangelog.com/
   [Semantic Versioning]: http://semver.org/
 
-## [Unreleased] - 2020-04-22
+## [0.9.0] - 2020-04-22
 
 ### Changed
 
 - Updated Ruby to 2.6.6.
 - Changed CSS temporary directory from .tmp to tmp
+
+[0.9.0]: https://github.com/thoughtbot/middleman-template/compare/v0.8.0...v0.9.0
 
 ## [0.8.0] - 2019-12-16
 
