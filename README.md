@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This project is no longer maintained. Thank you to everyone who contributed over the years.
+
 # Middleman Template
 
 The base Middleman application used at [thoughtbot], ready to deploy
